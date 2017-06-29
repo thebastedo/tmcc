@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+node_modules
+yarn.lock
+coverage
+.dist
+main.js
+main.js.map
