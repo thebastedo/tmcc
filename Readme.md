@@ -2,7 +2,7 @@
 
 Coding Challenge - Large dataset data table
 
-Built using React with Hot reloading. CSS uses postcss and CSS Modules for componentized CSS. Babel is used to transpile the JS to es2015 for running in browsers. Axios is used for the XHTMLRequest and webpack-dev-server is used as the web server.
+Built using React with Hot reloading. CSS uses postcss and CSS Modules for componentized CSS. Babel is used to transpile the JS to es2015 for running in browsers. Axios is used for the XHTMLRequest and webpack-dev-server is used as the web server. Uses eslint for linting using the Standard Javascript spec.
 
 ## Instructions
 
@@ -31,3 +31,10 @@ When the build completes you can access the project at [http://localhost:8080](h
 - More detailed documentation
 - Column Sorting
 - Client Side Filtering
+- Better build
+  - production build
+  - More scripts
+- More cell Components
+- Better cell width setting based on content type
+- Tests
+- Better column mapping, right now assuming all objects will have all 40 properties
