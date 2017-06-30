@@ -2,7 +2,7 @@
 
 Coding Challenge - Large dataset data table
 
-Built using React with Hot reloading. CSS uses postcss and CSS Modules for componentized CSS. Babel is used to transpile the JS to es2015 for running in browsers. Axios is used for the XHTMLRequest and webpack-dev-server is used as the web server. Uses eslint for linting using the Standard Javascript spec.
+Built using React with Hot reloading. CSS uses postcss and CSS Modules for componentized CSS. Babel is used to transpile the JS to es2015 for running in browsers. Axios is used for the XHTMLRequest and webpack-dev-server is used as the web server. Uses eslint for linting using the Standard Javascript spec. Using Faker.js to generate fake data set to build against, this just outputs a json file that gets loaded over standard http GET request into the application. Also using [fixed-data-table-2](https://github.com/schrodinger/fixed-data-table-2) for the data table. This is a fork of a facebook component that can be found [here](https://facebook.github.io/fixed-data-table).
 
 ## Instructions
 
