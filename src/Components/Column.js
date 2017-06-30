@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
+import styles from './Column.css'
+
 export default class Column extends Component {
   toggle = (column, visible) => {
     this.props.toggle(column, visible)
@@ -10,7 +12,7 @@ export default class Column extends Component {
     let {name, visible} = this.props
 
     return (
-      <div>
+      <div className={styles.column}>
         <input
           type='checkbox'
           value={name}

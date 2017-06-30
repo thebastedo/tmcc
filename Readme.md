@@ -38,3 +38,4 @@ When the build completes you can access the project at [http://localhost:8080](h
 - Better cell width setting based on content type
 - Tests
 - Better column mapping, right now assuming all objects will have all 40 properties
+- Better file organization, right now very flat
