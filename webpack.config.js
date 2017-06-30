@@ -27,7 +27,7 @@ let plugins = [
       'NODE_ENV': JSON.stringify(env)
     }
   }),
-  new HtmlWebpackPlugin()
+  new HtmlWebpackPlugin({title: 'TM-CC'})
 ].filter(noNulls)
 
 module.exports = {
@@ -50,6 +50,11 @@ module.exports = {
         include: sourcePath,
         exclude: /node_modules/,
         loader: 'babel-loader'
+      },
+      {
+        test: /\.css$/,
+        include: /node_modules/,
+        loader: 'style-loader!css-loader'
       },
       {
         test: /\.css$/,
